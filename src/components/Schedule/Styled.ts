@@ -12,22 +12,31 @@ export const Form = styled.form`
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 700px;
     padding: 100px 100px 0 100px;
 `;
 
 export const Table = styled.table`
     width: 700px;
+    margin-top: 50px;
+`;
+
+export const tr = styled.tr`
+    
 `;
 
 export const th = styled.th`
     border: 1px solid black;
-    height: 30px;
-    width: 148.13px;
+    height: 65px;
+    min-width: 140px;
 `;
 
 export const td = styled.td`
     border: 1px solid black;
-    height: 30px;
+    height: 65px;
+    min-width: 140px;
+`;
+
+export const RowText = styled.span`
+    font-size: 22px;
 `;
 
