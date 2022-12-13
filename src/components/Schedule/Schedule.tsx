@@ -108,7 +108,6 @@ const Schedule = () => {
                       <S.td key={i}>{scheduleList[i].timeName}</S.td>
                     );
                   }
-                  
                 })}
               </S.tr>
             </tbody>
